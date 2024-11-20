@@ -172,8 +172,8 @@ workflow VCF_PREPPER {
     .map {
       meta, vcf, vcf_index ->
         // TODO: when we have multiple source per genome we need to delete source specific files
-        new_vcf = "${meta.genome_api_outdir}/variation.vcf.gz"
-        new_vcf_index = "${meta.genome_api_outdir}/variation.vcf.gz.${meta.index_type}"
+        new_vcf = "${meta.genome_api_outdir}/${vcf}"
+        new_vcf_index = "${meta.genome_api_outdir}/${vcf_index}"
         
         // in -resume vcf and vcf_index may not exists as already renamed
         // moveTo instead of renameTo - in -resume dest file may exists from previous run

@@ -96,43 +96,11 @@ def format_gnomad_args(source: str, metadata: dict) -> str:
     
     gnomAD_custom_args = []
     for chromosome in chromosomes:
-        file = os.path.join(metadata["directory"], metadata["file_pattern"].replace("##CHR##", chromosome))
+        # add discordant p-value from joint frequency file
+        file = f"/nfs/production/flicek/ensembl/variation/data/gnomAD/v4.1/joint_frequencies/gnomad.joint.v4.1.sites.chr{ chromosome }.vcf.bgz"
         if not os.path.isfile(file):
             print(f"[ERROR] Frequency file does not exist - {file}. Exiting ...")
             exit(1)
-        
-        custom_line = f"custom file={file},short_name={source},format=vcf,type=exact,coords=0," + \
-            "fields=nhomalt%AF%AC%AN" + \
-            "%nhomalt_XX%AC_XX%AN_XX%nhomalt_XY%AC_XY%AN_XY" + \
-            "%nhomalt_afr%AF_afr%AC_afr%AN_afr" + \
-            "%nhomalt_afr_XX%AC_afr_XX%AN_afr_XX%nhomalt_afr_XY%AC_afr_XY%AN_afr_XY" + \
-            "%nhomalt_amr%AF_amr%AC_amr%AN_amr" + \
-            "%nhomalt_amr_XX%AC_amr_XX%AN_amr_XX%nhomalt_amr_XY%AC_amr_XY%AN_amr_XY" + \
-            "%nhomalt_asj%AF_asj%AC_asj%AN_asj" + \
-            "%nhomalt_asj_XX%AC_asj_XX%AN_asj_XX%nhomalt_asj_XY%AC_asj_XY%AN_asj_XY" + \
-            "%nhomalt_eas%AF_eas%AC_eas%AN_eas" + \
-            "%nhomalt_eas_XX%AC_eas_XX%AN_eas_XX%nhomalt_eas_XY%AC_eas_XY%AN_eas_XY" + \
-            "%nhomalt_fin%AF_fin%AC_fin%AN_fin" + \
-            "%nhomalt_fin_XX%AC_fin_XX%AN_fin_XX%nhomalt_fin_XY%AC_fin_XY%AN_fin_XY" + \
-            "%nhomalt_mid%AF_mid%AC_mid%AN_mid" + \
-            "%nhomalt_mid_XX%AC_mid_XX%AN_mid_XX%nhomalt_mid_XY%AC_mid_XY%AN_mid_XY" + \
-            "%nhomalt_nfe%AF_nfe%AC_nfe%AN_nfe" + \
-            "%nhomalt_nfe_XX%AC_nfe_XX%AN_nfe_XX%nhomalt_nfe_XY%AC_nfe_XY%AN_nfe_XY" + \
-            "%nhomalt_remaining%AF_remaining%AC_remaining%AN_remaining" + \
-            "%nhomalt_remaining_XX%AC_remaining_XX%AN_remaining_XX%nhomalt_remaining_XY%AC_remaining_XY%AN_remaining_XY" + \
-            "%nhomalt_sas%AF_sas%AC_sas%AN_sas" + \
-            "%nhomalt_sas_XX%AC_sas_XX%AN_sas_XX%nhomalt_sas_XY%AC_sas_XY%AN_sas_XY"
-
-        if source == "gnomAD_genomes":
-            custom_line += "%nhomalt_ami%AF_ami%AC_ami%AN_ami"
-            custom_line += "%nhomalt_ami_XX%AC_ami_XX%AN_ami_XX%nhomalt_ami_XY%AC_ami_XY%AN_ami_XY"
-
-        custom_line += "%fafmax_faf95_max"
-            
-        gnomAD_custom_args.append(custom_line)
-
-        # add discordant p-value from joint frequency file
-        file = f"/nfs/production/flicek/ensembl/variation/data/gnomAD/v4.1/joint_frequencies/gnomad.joint.v4.1.sites.chr{ chromosome }.vcf.bgz"
         custom_line = f"custom file={file},short_name={source},format=vcf,type=exact,coords=0,fields=stat_union_p_value"
 
         gnomAD_custom_args.append(custom_line)

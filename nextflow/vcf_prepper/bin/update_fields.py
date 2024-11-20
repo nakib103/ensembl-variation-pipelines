@@ -78,24 +78,15 @@ def main(args = None):
     
     meta = format_meta(META, chromosomes, synonyms)
 
-    with bgzf.open(output_file, "wt") as o_file:
-        o_file.write(meta)
-        o_file.write(HEADER)
+    input_vcf = VCF(input_file)
+    output_vcf = Writer(output_file, input_vcf, mode="wz")
+    for variant in input_vcf:
+        variant.CHROM = synonyms[variant.CHROM] if variant.CHROM in synonyms else variant.CHROM,
+        variant.ID = format_id(variant.ID),
+        variant.INFO.pop("vep", None)
 
-        input_vcf = VCF(input_file)
-        for variant in input_vcf:
-            o_file.write("\t".join([
-                    synonyms[variant.CHROM] if variant.CHROM in synonyms else variant.CHROM,
-                    str(variant.POS),
-                    format_id(variant.ID),
-                    variant.REF,
-                    ",".join(variant.ALT),
-                    ".",
-                    ".",
-                    f"SOURCE={source}"
-                ]) + "\n"
-            )
-        input_vcf.close()
+        output_vcf.write_record(variant)
+    input_vcf.close()
     
 if __name__ == "__main__":
     sys.exit(main())
