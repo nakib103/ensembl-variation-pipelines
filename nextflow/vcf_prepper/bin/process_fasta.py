@@ -76,20 +76,20 @@ def index_fasta(zipped_fasta: str, force: str = False) -> None:
         print(f"[ERROR] Cannot index fasta - {fasta} - does not exist. Exiting ...")
         exit(1)
 
-    fai = os.path.join(zipped_fasta, ".fai")
-    gzi = os.path.join(zipped_fasta, ".gzi")
+    fai = zipped_fasta + ".fai"
+    gzi = zipped_fasta + ".gzi"
 
     if os.path.isfile(fai) and os.path.isfile(gzi) and not force:
         print(f"[INFO] both .fai and .gzi file exist. Skipping ...")
         return
 
-    if os.path.isfile(zipped_fasta + ".fai"):
-        print(f"[INFO] {zipped_fasta + '.fai'} exist. Deleting ...")
-        os.remove(zipped_fasta + ".fai")
+    if os.path.isfile(fai):
+        print(f"[INFO] {fai} exist. Deleting ...")
+        os.remove(fai)
     
-    if os.path.isfile(zipped_fasta + ".gzi"):
-        print(f"[INFO] {zipped_fasta + '.gzi'} exist. Deleting ...")
-        os.remove(zipped_fasta + ".gzi")
+    if os.path.isfile(gzi):
+        print(f"[INFO] {gzi} exist. Deleting ...")
+        os.remove(gzi)
     
     cmd_index_fasta = "use Bio::DB::HTS::Faidx;"
     cmd_index_fasta += f"Bio::DB::HTS::Faidx->new('{zipped_fasta}');"
