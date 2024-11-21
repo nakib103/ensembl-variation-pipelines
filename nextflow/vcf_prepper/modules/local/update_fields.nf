@@ -32,10 +32,6 @@ process UPDATE_FIELDS {
   rename_clinvar_ids = params.rename_clinvar_ids ? "--rename_clinvar_ids" : ""
   
   '''
-  chrs=$(tabix !{vcf} -l | xargs | tr ' ' ',')
-  update_fields.py !{vcf} !{source} !{synonym_file} \
-    !{rename_clinvar_ids} \
-    -O !{output_file} \
-    --chromosomes ${chrs}
+  ln -s !{vcf} !{output_file}
   '''
 }
