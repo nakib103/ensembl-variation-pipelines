@@ -90,29 +90,12 @@ def parse_args(args = None):
     parser.add_argument('--repo_dir', dest="repo_dir", type=str, required = False, help="Ensembl repositories directory")
     
     return parser.parse_args(args)
-
-def format_gnomad_args(source: str, metadata: dict) -> str:
-    chromosomes = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', 'X', 'Y']
-    
-    gnomAD_custom_args = []
-    for chromosome in chromosomes:
-        # add discordant p-value from joint frequency file
-        file = f"/nfs/production/flicek/ensembl/variation/data/gnomAD/v4.1/joint_frequencies/gnomad.joint.v4.1.sites.chr{ chromosome }.vcf.bgz"
-        if not os.path.isfile(file):
-            print(f"[ERROR] Frequency file does not exist - {file}. Exiting ...")
-            exit(1)
-        custom_line = f"custom file={file},short_name={source},format=vcf,type=exact,coords=0,fields=stat_union_p_value"
-
-        gnomAD_custom_args.append(custom_line)
-    
-    return "\n".join(gnomAD_custom_args)
     
 def get_frequency_args(assembly: str) -> str:
     frequencies = []
     for source in FREQUENCIES:
         if source.startswith("gnomAD"):
-            if assembly in FREQUENCIES[source]:
-                frequencies.append(format_gnomad_args(source, FREQUENCIES[source][assembly]))
+            pass
         else:
             frequencies.append(FREQUENCIES[source])
     
