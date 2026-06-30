@@ -146,7 +146,8 @@ def get_ensembl_species(server: dict, meta_db: str) -> dict:
                	a.assembly_default,
                 o.scientific_name
                	FROM genome AS g, assembly AS a, genome_release AS gr, organism AS o
-                WHERE g.assembly_id = a.assembly_id AND g.genome_id = gr.genome_id AND gr.is_current = 1 AND g.organism_id = o.organism_id
+                WHERE g.assembly_id = a.assembly_id AND g.genome_id = gr.genome_id AND g.organism_id = o.organism_id
+                AND suppressed != 1 AND gr.is_current = 1
             """
 
     process = subprocess.run(
