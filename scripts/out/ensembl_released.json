@@ -1,0 +1,940 @@
+{
+    "felis_catus_gca018350175v1_F.catus_Fca126_mat1.0": [
+        {
+            "genome_uuid": "f75bdac1-ada4-47e6-94ae-f50a0e8cccf6",
+            "species": "felis_catus_gca018350175v1",
+            "assembly": "F.catus_Fca126_mat1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/felis_catus/GCA_018350175.1/9685_GCA_018350175.1_current_ids.vcf.gz"
+        }
+    ],
+    "meleagris_gallopavo_Turkey_5.1": [
+        {
+            "genome_uuid": "2b574c51-ed1c-494e-a250-dde7a4f13c13",
+            "species": "meleagris_gallopavo",
+            "assembly": "Turkey_5.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/meleagris_gallopavo/GCA_000146605.4/9103_GCA_000146605.4_current_ids.vcf.gz"
+        }
+    ],
+    "bison_bison_gca000754665v1_Bison_UMD1.0": [
+        {
+            "genome_uuid": "79d95e78-b937-4e87-9b42-c2246f15f158",
+            "species": "bison_bison_gca000754665v1",
+            "assembly": "Bison_UMD1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/bison_bison_bison/GCA_000754665.1/43346_GCA_000754665.1_current_ids.vcf.gz"
+        }
+    ],
+    "bos_taurus_gca002263795v4_ARS-UCD2.0": [
+        {
+            "genome_uuid": "8c31359e-d624-4635-860e-9a92cde3dac2",
+            "species": "bos_taurus_gca002263795v4",
+            "assembly": "ARS-UCD2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/bos/GCA_002263795.4/9903_GCA_002263795.4_current_ids.vcf.gz"
+        }
+    ],
+    "strongyloides_ratti_S_ratti_ED321_v5_0_4": [
+        {
+            "genome_uuid": "f2c3f975-e7b1-45d2-8d36-4178811cad96",
+            "species": "strongyloides_ratti",
+            "assembly": "S_ratti_ED321_v5_0_4",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/strongyloides_ratti/GCA_001040885.1/34506_GCA_001040885.1_current_ids.vcf.gz"
+        }
+    ],
+    "capra_hircus_ARS1": [
+        {
+            "genome_uuid": "c44a36bc-75f1-43dc-88ea-decc8573a850",
+            "species": "capra_hircus",
+            "assembly": "ARS1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/capra_hircus/GCA_001704415.1/9925_GCA_001704415.1_current_ids.vcf.gz"
+        }
+    ],
+    "rattus_norvegicus_gca015227675v2_mRatBN7.2": [
+        {
+            "genome_uuid": "d15f0ad1-d4d9-4d94-8db0-f2aac21786f7",
+            "species": "rattus_norvegicus_gca015227675v2",
+            "assembly": "mRatBN7.2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/rattus_norvegicus/GCA_015227675.2/10116_GCA_015227675.2_current_ids.vcf.gz"
+        },
+        {
+            "genome_uuid": "d6c51c59-4863-4c1f-a738-bb838afa868e",
+            "species": "rattus_norvegicus_gca015227675v2",
+            "assembly": "mRatBN7.2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/rattus_norvegicus/GCA_015227675.2/10116_GCA_015227675.2_current_ids.vcf.gz"
+        }
+    ],
+    "arabidopsis_thaliana_TAIR10": [
+        {
+            "genome_uuid": "c0410902-1007-404d-a8dd-3adee003811e",
+            "species": "arabidopsis_thaliana",
+            "assembly": "TAIR10",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/arabidopsis_thaliana/GCA_000001735.1/3702_GCA_000001735.1_current_ids.vcf.gz"
+        }
+    ],
+    "bos_grunniens_gca005887515v1_LU_Bosgru_v3.0": [
+        {
+            "genome_uuid": "c7fa8a35-51ea-473d-aeb0-5774eb216703",
+            "species": "bos_grunniens_gca005887515v1",
+            "assembly": "LU_Bosgru_v3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/bos_grunniens/GCA_005887515.1/30521_GCA_005887515.1_current_ids.vcf.gz"
+        }
+    ],
+    "daucus_carota_gca001625215v1_ASM162521v1": [
+        {
+            "genome_uuid": "94f3be92-62ee-4bec-b41e-45a0197cf66f",
+            "species": "daucus_carota_gca001625215v1",
+            "assembly": "ASM162521v1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/daucus_carota_subsp_sativus/GCA_001625215.1/79200_GCA_001625215.1_current_ids.vcf.gz"
+        }
+    ],
+    "pongo_abelii_gca002880775v3_Susie_PABv2": [
+        {
+            "genome_uuid": "40ba165f-b079-4afe-a95a-41ba4d90df72",
+            "species": "pongo_abelii_gca002880775v3",
+            "assembly": "Susie_PABv2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/pongo_abelii/GCA_002880775.3/9601_GCA_002880775.3_current_ids.vcf.gz"
+        }
+    ],
+    "capsicum_annuum_gca000512255v2cm_ASM51225v2": [
+        {
+            "genome_uuid": "c6785629-2dd7-499d-b396-6853553ab86e",
+            "species": "capsicum_annuum_gca000512255v2cm",
+            "assembly": "ASM51225v2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/capsicum_annuum/GCA_000512255.2/4072_GCA_000512255.2_current_ids.vcf.gz"
+        }
+    ],
+    "peromyscus_maniculatus_bairdii_HU_Pman_2.1": [
+        {
+            "genome_uuid": "577a2f20-f47c-4562-a33c-3ce9d445dd3a",
+            "species": "peromyscus_maniculatus_bairdii",
+            "assembly": "HU_Pman_2.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/peromyscus_maniculatus_bairdii/GCA_003704035.1/230844_GCA_003704035.1_current_ids.vcf.gz"
+        }
+    ],
+    "sus_scrofa_Sscrofa11.1": [
+        {
+            "genome_uuid": "da38d82b-df50-419b-af74-886463b7bfa3",
+            "species": "sus_scrofa",
+            "assembly": "Sscrofa11.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/sus_scrofa/GCA_000003025.6/9823_GCA_000003025.6_current_ids.vcf.gz"
+        }
+    ],
+    "anas_platyrhynchos_ASM874695v1": [
+        {
+            "genome_uuid": "600ea67d-5f86-479b-8155-cd8cf4b2d0f9",
+            "species": "anas_platyrhynchos",
+            "assembly": "ASM874695v1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anas_platyrhynchos/GCA_008746955.1/8839_GCA_008746955.1_current_ids.vcf.gz"
+        }
+    ],
+    "coturnix_japonica_gca001577835v1_Coturnix_japonica_2.0": [
+        {
+            "genome_uuid": "d950d586-b230-45f3-9957-03f129248fee",
+            "species": "coturnix_japonica_gca001577835v1",
+            "assembly": "Coturnix_japonica_2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/coturnix_japonica/GCA_001577835.1/93934_GCA_001577835.1_current_ids.vcf.gz"
+        }
+    ],
+    "danio_rerio_GRCz11": [
+        {
+            "genome_uuid": "b29f62e6-992e-4049-a26b-b6bd673c51e7",
+            "species": "danio_rerio",
+            "assembly": "GRCz11",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/danio_rerio/GCA_000002035.4/7955_GCA_000002035.4_current_ids.vcf.gz"
+        }
+    ],
+    "macaca_mulatta_Mmul_10": [
+        {
+            "genome_uuid": "0b534dfd-97d5-4acc-a242-f31604237a6a",
+            "species": "macaca_mulatta",
+            "assembly": "Mmul_10",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/macaca_mulatta/GCA_003339765.3/9544_GCA_003339765.3_current_ids.vcf.gz"
+        }
+    ],
+    "drosophila_melanogaster_BDGP6.46": [
+        {
+            "genome_uuid": "968e99a2-bb9b-44e9-a4ad-13c7a9672600",
+            "species": "drosophila_melanogaster",
+            "assembly": "BDGP6.46",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/drosophila_melanogaster/GCA_000001215.4/7227_GCA_000001215.4_current_ids.vcf.gz"
+        }
+    ],
+    "heterocephalus_glaber_gca944319725v1_Naked_mole-rat_paternal": [
+        {
+            "genome_uuid": "d9531761-2645-48d4-b8f6-8ea9e36e0fcd",
+            "species": "heterocephalus_glaber_gca944319725v1",
+            "assembly": "Naked_mole-rat_paternal",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/heterocephalus_glaber/GCA_944319725.1/10181_GCA_944319725.1_current_ids.vcf.gz"
+        }
+    ],
+    "anopheles_melas_gca000473525v2vb_AmelC2": [
+        {
+            "genome_uuid": "cd8821a1-84d2-4e37-a580-17836cbcefea",
+            "species": "anopheles_melas_gca000473525v2vb",
+            "assembly": "AmelC2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anopheles_melas/GCA_000473525.2/34690_GCA_000473525.2_current_ids.vcf.gz"
+        }
+    ],
+    "ananas_comosus_gca902162155v1_F153": [
+        {
+            "genome_uuid": "88bba166-bea4-4306-949d-8fdf819699a6",
+            "species": "ananas_comosus_gca902162155v1",
+            "assembly": "F153",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/ananas_comosus/GCA_902162155.1/4615_GCA_902162155.1_current_ids.vcf.gz"
+        }
+    ],
+    "vitis_vinifera_gca030704535v1_ASM3070453v1": [
+        {
+            "genome_uuid": "eebd18b6-b189-403d-80d8-b0707aae17db",
+            "species": "vitis_vinifera_gca030704535v1",
+            "assembly": "ASM3070453v1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/vitis_vinifera/GCA_030704535.1/29760_GCA_030704535.1_current_ids.vcf.gz"
+        }
+    ],
+    "mus_musculus_GRCm39": [
+        {
+            "genome_uuid": "499f377d-60de-4c14-bbc1-d0c7f9dfcbd9",
+            "species": "mus_musculus",
+            "assembly": "GRCm39",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/mus_musculus/GCA_000001635.9/10090_GCA_000001635.9_current_ids.vcf.gz"
+        }
+    ],
+    "cavia_porcellus_Cavpor3.0": [
+        {
+            "genome_uuid": "01e6d823-1463-4e7a-941a-c9de4f751b6a",
+            "species": "cavia_porcellus",
+            "assembly": "Cavpor3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/cavia_porcellus/GCA_000151735.1/10141_GCA_000151735.1_current_ids.vcf.gz"
+        }
+    ],
+    "aedes_aegypti_lvpagwg_AaegL5": [
+        {
+            "genome_uuid": "4c89a993-76c2-4f40-a3b4-30dfb5701616",
+            "species": "aedes_aegypti_lvpagwg",
+            "assembly": "AaegL5",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/aedes_aegypti/GCA_002204515.1/7159_GCA_002204515.1_current_ids.vcf.gz"
+        }
+    ],
+    "bos_taurus_ARS-UCD1.2": [
+        {
+            "genome_uuid": "4106e9ef-1bb1-4ca4-974c-8de8875b8456",
+            "species": "bos_taurus",
+            "assembly": "ARS-UCD1.2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/bos/GCA_002263795.2/9903_GCA_002263795.2_current_ids.vcf.gz"
+        }
+    ],
+    "phaseolus_vulgaris_gca000499845v1_PhaVulg1_0": [
+        {
+            "genome_uuid": "7bc18149-5cff-4727-a421-90bab36325c9",
+            "species": "phaseolus_vulgaris_gca000499845v1",
+            "assembly": "PhaVulg1_0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/phaseolus_vulgaris/GCA_000499845.1/3885_GCA_000499845.1_current_ids.vcf.gz"
+        }
+    ],
+    "neovison_vison_gca900108605v1_NNQGG.v01": [
+        {
+            "genome_uuid": "356cf26c-db3c-476f-b4d6-9a13dc6e1157",
+            "species": "neovison_vison_gca900108605v1",
+            "assembly": "NNQGG.v01",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/neogale_vison/GCA_900108605.1/452646_GCA_900108605.1_current_ids.vcf.gz"
+        }
+    ],
+    "dictyostelium_discoideum_dicty_2.7": [
+        {
+            "genome_uuid": "ec4e3e5f-ee80-43de-9677-db956f4ef89b",
+            "species": "dictyostelium_discoideum",
+            "assembly": "dicty_2.7",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/dictyostelium_discoideum/GCA_000004695.1/44689_GCA_000004695.1_current_ids.vcf.gz"
+        }
+    ],
+    "alosa_sapidissima_gca018492685v1_fAloSap1.pri": [
+        {
+            "genome_uuid": "c6ad02ab-3b65-47ce-84ea-03be241fc35b",
+            "species": "alosa_sapidissima_gca018492685v1",
+            "assembly": "fAloSap1.pri",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/alosa_sapidissima/GCA_018492685.1/34773_GCA_018492685.1_current_ids.vcf.gz"
+        }
+    ],
+    "nomascus_leucogenys_gca000146795v3_Nleu_3.0": [
+        {
+            "genome_uuid": "7a01175c-f735-4b2e-ba8b-7f31390b7e2e",
+            "species": "nomascus_leucogenys_gca000146795v3",
+            "assembly": "Nleu_3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/nomascus_leucogenys/GCA_000146795.3/61853_GCA_000146795.3_current_ids.vcf.gz"
+        }
+    ],
+    "callithrix_jacchus_gca011100555v1_mCalJac1.pat.X": [
+        {
+            "genome_uuid": "76a829fc-5679-4c31-aaed-acb68b208131",
+            "species": "callithrix_jacchus_gca011100555v1",
+            "assembly": "mCalJac1.pat.X",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/callithrix_jacchus/GCA_011100555.1/9483_GCA_011100555.1_current_ids.vcf.gz"
+        }
+    ],
+    "parus_major_gca001522545v2_Parus_major1.1": [
+        {
+            "genome_uuid": "c1461ac3-9ea2-4023-a12e-98aa35829b5c",
+            "species": "parus_major_gca001522545v2",
+            "assembly": "Parus_major1.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/parus_major/GCA_001522545.2/9157_GCA_001522545.2_current_ids.vcf.gz"
+        }
+    ],
+    "ovis_aries_gca016772045v2_ARS-UI_Ramb_v3.0": [
+        {
+            "genome_uuid": "e6409be6-0232-4f84-8735-f14a7e63cea8",
+            "species": "ovis_aries_gca016772045v2",
+            "assembly": "ARS-UI_Ramb_v3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/ovis_aries/GCA_016772045.2/9940_GCA_016772045.2_current_ids.vcf.gz"
+        }
+    ],
+    "brassica_napus_AST_PRJEB5043_v1": [
+        {
+            "genome_uuid": "963df045-925b-4839-abb6-ca2bfaf2b047",
+            "species": "brassica_napus",
+            "assembly": "AST_PRJEB5043_v1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/brassica_napus/GCA_000751015.1/3708_GCA_000751015.1_current_ids.vcf.gz"
+        }
+    ],
+    "anopheles_farauti_gca000473445v2vb_AfarF2": [
+        {
+            "genome_uuid": "b8e66123-3946-48f9-85d3-869f5e1fc8de",
+            "species": "anopheles_farauti_gca000473445v2vb",
+            "assembly": "AfarF2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anopheles_farauti/GCA_000473445.2/69004_GCA_000473445.2_current_ids.vcf.gz"
+        }
+    ],
+    "rattus_norvegicus_gca036323735v1_GRCr8": [
+        {
+            "genome_uuid": "87fad41c-701a-4983-bdcc-db9994391ee5",
+            "species": "rattus_norvegicus_gca036323735v1",
+            "assembly": "GRCr8",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/rattus_norvegicus/GCA_036323735.1/10116_GCA_036323735.1_current_ids.vcf.gz"
+        }
+    ],
+    "seriola_dumerili_gca002260705v1_Sdu_1.0": [
+        {
+            "genome_uuid": "12c807b0-5506-4726-bf5d-f82d762d93e7",
+            "species": "seriola_dumerili_gca002260705v1",
+            "assembly": "Sdu_1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/seriola_dumerili/GCA_002260705.1/41447_GCA_002260705.1_current_ids.vcf.gz"
+        }
+    ],
+    "microtus_ochrogaster_gca000317375v1_MicOch1.0": [
+        {
+            "genome_uuid": "2906c570-71c8-4d3a-91cb-b147c10ebefc",
+            "species": "microtus_ochrogaster_gca000317375v1",
+            "assembly": "MicOch1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/microtus_ochrogaster/GCA_000317375.1/79684_GCA_000317375.1_current_ids.vcf.gz"
+        }
+    ],
+    "saccharomyces_cerevisiae_R64-1-1": [
+        {
+            "genome_uuid": "a733574a-93e7-11ec-a39d-005056b38ce3",
+            "species": "saccharomyces_cerevisiae",
+            "assembly": "R64-1-1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/saccharomyces_cerevisiae/GCA_000146045.2/4932_GCA_000146045.2_current_ids.vcf.gz"
+        }
+    ],
+    "oreochromis_niloticus_O_niloticus_UMD_NMBU": [
+        {
+            "genome_uuid": "3fb2bed5-aecd-4e36-88f1-7a464d64515d",
+            "species": "oreochromis_niloticus",
+            "assembly": "O_niloticus_UMD_NMBU",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/oreochromis_niloticus/GCA_001858045.3/8128_GCA_001858045.3_current_ids.vcf.gz"
+        }
+    ],
+    "ovis_aries_gca000298735v2_Oar_v4.0": [
+        {
+            "genome_uuid": "7879a318-1b1b-4054-9304-b7fd38b92147",
+            "species": "ovis_aries_gca000298735v2",
+            "assembly": "Oar_v4.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/ovis_aries/GCA_000298735.2/9940_GCA_000298735.2_current_ids.vcf.gz"
+        }
+    ],
+    "hordeum_vulgare_MorexV3_pseudomolecules_assembly": [
+        {
+            "genome_uuid": "e355c9df-75a2-411b-a470-36897d4f1515",
+            "species": "hordeum_vulgare",
+            "assembly": "MorexV3_pseudomolecules_assembly",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/hordeum_vulgare/GCA_904849725.1/4513_GCA_904849725.1_current_ids.vcf.gz"
+        }
+    ],
+    "salmo_salar_Ssal_v3.1": [
+        {
+            "genome_uuid": "ba305820-0d8a-4f53-9326-084a1fb0ea34",
+            "species": "salmo_salar",
+            "assembly": "Ssal_v3.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/salmo_salar/GCA_905237065.2/8030_GCA_905237065.2_current_ids.vcf.gz"
+        }
+    ],
+    "ovis_aries_gca016772045v1_ARS-UI_Ramb_v2.0": [
+        {
+            "genome_uuid": "89b91804-7eb5-49dc-92ab-8d23bdf3f76b",
+            "species": "ovis_aries_gca016772045v1",
+            "assembly": "ARS-UI_Ramb_v2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/ovis_aries/GCA_016772045.1/9940_GCA_016772045.1_current_ids.vcf.gz"
+        }
+    ],
+    "chlorocebus_sabaeus_gca000409795v2_Chlorocebus_sabeus_1.1": [
+        {
+            "genome_uuid": "9fbb3c58-bee9-4eab-a07b-975039316cf4",
+            "species": "chlorocebus_sabaeus_gca000409795v2",
+            "assembly": "Chlorocebus_sabeus_1.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/chlorocebus_sabaeus/GCA_000409795.2/60711_GCA_000409795.2_current_ids.vcf.gz"
+        }
+    ],
+    "felis_catus_Felis_catus_9.0": [
+        {
+            "genome_uuid": "14fe0744-4b47-4d31-bddf-dc2b6ffc7f4e",
+            "species": "felis_catus",
+            "assembly": "Felis_catus_9.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/felis_catus/GCA_000181335.4/9685_GCA_000181335.4_current_ids.vcf.gz"
+        }
+    ],
+    "pan_troglodytes_Pan_tro_3.0": [
+        {
+            "genome_uuid": "e327126e-c395-4028-a8f9-a36d29436ad9",
+            "species": "pan_troglodytes",
+            "assembly": "Pan_tro_3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/pan_troglodytes/GCA_000001515.5/9598_GCA_000001515.5_current_ids.vcf.gz"
+        }
+    ],
+    "camelus_dromedarius_gca000803125v2_CamDro2": [
+        {
+            "genome_uuid": "e4fa8acb-fd0c-4d46-a2f3-a207541288a0",
+            "species": "camelus_dromedarius_gca000803125v2",
+            "assembly": "CamDro2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/camelus_dromedarius/GCA_000803125.2/9838_GCA_000803125.2_current_ids.vcf.gz"
+        }
+    ],
+    "clupea_harengus_gca900700415v2_Ch_v2.0.2": [
+        {
+            "genome_uuid": "32f950da-15eb-444a-abe5-2c7143775923",
+            "species": "clupea_harengus_gca900700415v2",
+            "assembly": "Ch_v2.0.2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/clupea_harengus/GCA_900700415.2/7950_GCA_900700415.2_current_ids.vcf.gz"
+        }
+    ],
+    "apis_mellifera_Amel_HAv3.1": [
+        {
+            "genome_uuid": "98445bce-9b0b-4f48-aa37-37b04eb3b8ee",
+            "species": "apis_mellifera",
+            "assembly": "Amel_HAv3.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/apis_mellifera/GCA_003254395.2/7460_GCA_003254395.2_current_ids.vcf.gz"
+        }
+    ],
+    "oncorhynchus_mykiss_USDA_OmykA_1.1": [
+        {
+            "genome_uuid": "c19e1f6d-5847-4bbc-8126-4388a225e13e",
+            "species": "oncorhynchus_mykiss",
+            "assembly": "USDA_OmykA_1.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/oncorhynchus_mykiss/GCA_013265735.3/8022_GCA_013265735.3_current_ids.vcf.gz"
+        }
+    ],
+    "clupea_harengus_Ch_v2.0.2": [
+        {
+            "genome_uuid": "59da18f8-096f-4d65-a1b1-e0b005f8bbca",
+            "species": "clupea_harengus",
+            "assembly": "Ch_v2.0.2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/clupea_harengus/GCA_900700415.1/7950_GCA_900700415.1_current_ids.vcf.gz"
+        }
+    ],
+    "anopheles_gambiae_AgamP4": [
+        {
+            "genome_uuid": "40a882df-33a5-4cd5-af6b-479d4221b2f8",
+            "species": "anopheles_gambiae",
+            "assembly": "AgamP4",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anopheles_gambiae/GCA_000005575.1/7165_GCA_000005575.1_current_ids.vcf.gz"
+        }
+    ],
+    "theobroma_cacao_gca000403535v1_Theobroma_cacao_20110822": [
+        {
+            "genome_uuid": "d29d74a6-f492-4c43-bed8-804698dcb392",
+            "species": "theobroma_cacao_gca000403535v1",
+            "assembly": "Theobroma_cacao_20110822",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/theobroma_cacao/GCA_000403535.1/3641_GCA_000403535.1_current_ids.vcf.gz"
+        }
+    ],
+    "canis_lupus_familiaris_ROS_Cfam_1.0": [
+        {
+            "genome_uuid": "a6edaf0c-daed-4f0f-8de3-f732502973b2",
+            "species": "canis_lupus_familiaris",
+            "assembly": "ROS_Cfam_1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/canis_lupus_familiaris/GCA_014441545.1/9615_GCA_014441545.1_current_ids.vcf.gz"
+        }
+    ],
+    "cucumis_sativus_gca000004075v3gb_Cucumber_9930_V3": [
+        {
+            "genome_uuid": "874ec57f-a4df-479c-bdb9-d7cea668bac5",
+            "species": "cucumis_sativus_gca000004075v3gb",
+            "assembly": "Cucumber_9930_V3",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/cucumis_sativus_var_sativus/GCA_000004075.3/869827_GCA_000004075.3_current_ids.vcf.gz"
+        }
+    ],
+    "sander_lucioperca_SLUC_FBN_1": [
+        {
+            "genome_uuid": "659c4e50-a197-4817-ac62-4a6cee3a1c01",
+            "species": "sander_lucioperca",
+            "assembly": "SLUC_FBN_1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/sander_lucioperca/GCA_008315115.1/283035_GCA_008315115.1_current_ids.vcf.gz"
+        }
+    ],
+    "lupinus_angustifolius_gca001865875v1cm_LupAngTanjil_v1.0": [
+        {
+            "genome_uuid": "7bdf8ee7-7a89-4a35-9dc8-1416c4182859",
+            "species": "lupinus_angustifolius_gca001865875v1cm",
+            "assembly": "LupAngTanjil_v1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/lupinus_angustifolius/GCA_001865875.1/3871_GCA_001865875.1_current_ids.vcf.gz"
+        }
+    ],
+    "dicentrarchus_labrax_dlabrax2021": [
+        {
+            "genome_uuid": "c0abf72a-fc8b-40fb-95f0-994298368e0e",
+            "species": "dicentrarchus_labrax",
+            "assembly": "dlabrax2021",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/dicentrarchus_labrax/GCA_905237075.1/13489_GCA_905237075.1_current_ids.vcf.gz"
+        }
+    ],
+    "setaria_italica_gca000263155v2_Setaria_italica_v2.0": [
+        {
+            "genome_uuid": "4a9a5e03-c346-40d3-9db2-95d309f9d727",
+            "species": "setaria_italica_gca000263155v2",
+            "assembly": "Setaria_italica_v2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/setaria_italica/GCA_000263155.2/4555_GCA_000263155.2_current_ids.vcf.gz"
+        }
+    ],
+    "macaca_fascicularis_Macaca_fascicularis_6.0": [
+        {
+            "genome_uuid": "715d0107-657b-4689-b194-87144411aa45",
+            "species": "macaca_fascicularis",
+            "assembly": "Macaca_fascicularis_6.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/macaca_fascicularis/GCA_011100615.1/9541_GCA_011100615.1_current_ids.vcf.gz"
+        }
+    ],
+    "ovis_aries_Oar_v3.1": [
+        {
+            "genome_uuid": "92ae33e2-666b-4eeb-aaaf-43606315bd28",
+            "species": "ovis_aries",
+            "assembly": "Oar_v3.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/ovis_aries/GCA_000298735.1/9940_GCA_000298735.1_current_ids.vcf.gz"
+        }
+    ],
+    "zea_mays_Zm-B73-REFERENCE-NAM-5.0": [
+        {
+            "genome_uuid": "4273b9f0-c927-4215-87bf-828ef65de984",
+            "species": "zea_mays",
+            "assembly": "Zm-B73-REFERENCE-NAM-5.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/zea_mays/GCA_902167145.1/4577_GCA_902167145.1_current_ids.vcf.gz"
+        }
+    ],
+    "solanum_lycopersicum_SL3.0": [
+        {
+            "genome_uuid": "35a40586-9cb2-4d89-a7db-d00511691d09",
+            "species": "solanum_lycopersicum",
+            "assembly": "SL3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/solanum_lycopersicum/GCA_000188115.3/4081_GCA_000188115.3_current_ids.vcf.gz"
+        }
+    ],
+    "bubalus_bubalis_UOA_WB_1": [
+        {
+            "genome_uuid": "c097d34a-1eeb-43c9-8ccd-4fa1767f275d",
+            "species": "bubalus_bubalis",
+            "assembly": "UOA_WB_1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/bubalus_bubalis/GCA_003121395.1/89462_GCA_003121395.1_current_ids.vcf.gz"
+        }
+    ],
+    "gallus_gallus_gca000002315v5_GRCg6a": [
+        {
+            "genome_uuid": "c7d60942-b5b0-49f1-976f-8946cebd9ff1",
+            "species": "gallus_gallus_gca000002315v5",
+            "assembly": "GRCg6a",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/gallus_gallus/GCA_000002315.5/9031_GCA_000002315.5_current_ids.vcf.gz"
+        }
+    ],
+    "anoplophora_glabripennis_Agla_2.0": [
+        {
+            "genome_uuid": "df1288e1-fb4d-4401-8eaa-38b0c31e7157",
+            "species": "anoplophora_glabripennis",
+            "assembly": "Agla_2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anoplophora_glabripennis/GCA_000390285.2/217634_GCA_000390285.2_current_ids.vcf.gz"
+        }
+    ],
+    "helianthus_annuus_gca002127325v2_HanXRQr2.0-SUNRISE": [
+        {
+            "genome_uuid": "73149f4f-99c5-493b-bf53-e61c13fb8c6a",
+            "species": "helianthus_annuus_gca002127325v2",
+            "assembly": "HanXRQr2.0-SUNRISE",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/helianthus_annuus/GCA_002127325.2/4232_GCA_002127325.2_current_ids.vcf.gz"
+        }
+    ],
+    "aspergillus_flavus_gca000006275v3_JCVI-afl1-v3.0": [
+        {
+            "genome_uuid": "556b9789-637e-4377-b308-a69944e52d42",
+            "species": "aspergillus_flavus_gca000006275v3",
+            "assembly": "JCVI-afl1-v3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/aspergillus_flavus/GCA_000006275.3/5059_GCA_000006275.3_current_ids.vcf.gz"
+        }
+    ],
+    "oryza_sativa_IRGSP-1.0": [
+        {
+            "genome_uuid": "80c925c8-5c7d-4757-8a04-a53d2a689719",
+            "species": "oryza_sativa",
+            "assembly": "IRGSP-1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/oryza_sativa/GCA_001433935.1/4530_GCA_001433935.1_current_ids.vcf.gz"
+        }
+    ],
+    "oryza_sativa_gca001433935v1cm_IRGSP-1.0": [
+        {
+            "genome_uuid": "3edf686b-9125-455c-9192-f3c42db1a5c4",
+            "species": "oryza_sativa_gca001433935v1cm",
+            "assembly": "IRGSP-1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/oryza_sativa/GCA_001433935.1/4530_GCA_001433935.1_current_ids.vcf.gz"
+        }
+    ],
+    "glycine_max_Glycine_max_v2.1": [
+        {
+            "genome_uuid": "17ab5873-5000-41a8-a78d-105d01573c28",
+            "species": "glycine_max",
+            "assembly": "Glycine_max_v2.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/glycine_max/GCA_000004515.4/3847_GCA_000004515.4_current_ids.vcf.gz"
+        }
+    ],
+    "triticum_aestivum_IWGSC": [
+        {
+            "genome_uuid": "a73357ab-93e7-11ec-a39d-005056b38ce3",
+            "species": "triticum_aestivum",
+            "assembly": "IWGSC",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/triticum_aestivum/GCA_900519105.1/4565_GCA_900519105.1_current_ids.vcf.gz"
+        }
+    ],
+    "populus_trichocarpa_gca000002775v4_Pop_tri_v4": [
+        {
+            "genome_uuid": "e2d09ea1-9d06-4caf-8a99-3a3353ccc6c0",
+            "species": "populus_trichocarpa_gca000002775v4",
+            "assembly": "Pop_tri_v4",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/populus_trichocarpa/GCA_000002775.4/3694_GCA_000002775.4_current_ids.vcf.gz"
+        }
+    ],
+    "secale_cereale_gca902687465v1_Rye_Lo7_2018_v1p1p1": [
+        {
+            "genome_uuid": "bd3d704f-f1ba-4278-b217-036ed9dcd41f",
+            "species": "secale_cereale_gca902687465v1",
+            "assembly": "Rye_Lo7_2018_v1p1p1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/secale_cereale/GCA_902687465.1/4550_GCA_902687465.1_current_ids.vcf.gz"
+        }
+    ],
+    "eragrostis_tef_gca024500355v1cm_Salk_teff_dabbi_3.0": [
+        {
+            "genome_uuid": "d3664d45-f3eb-4625-807e-c9a773f4f675",
+            "species": "eragrostis_tef_gca024500355v1cm",
+            "assembly": "Salk_teff_dabbi_3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/eragrostis_tef/GCA_024500355.1/110835_GCA_024500355.1_current_ids.vcf.gz"
+        }
+    ],
+    "equus_caballus_EquCab3.0": [
+        {
+            "genome_uuid": "ca0c4d80-e0e7-4d4b-920f-f88ad90ff753",
+            "species": "equus_caballus",
+            "assembly": "EquCab3.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/equus_caballus/GCA_002863925.1/9796_GCA_002863925.1_current_ids.vcf.gz"
+        }
+    ],
+    "plasmodium_falciparum_ASM276v2": [
+        {
+            "genome_uuid": "a73356e1-93e7-11ec-a39d-005056b38ce3",
+            "species": "plasmodium_falciparum",
+            "assembly": "ASM276v2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/plasmodium_falciparum/GCA_000002765.2/5833_GCA_000002765.2_current_ids.vcf.gz"
+        }
+    ],
+    "juglans_regia_gca001411555v1gb_Walnut_2.0": [
+        {
+            "genome_uuid": "9d2d6338-cc79-4661-a360-c0441cf805ef",
+            "species": "juglans_regia_gca001411555v1gb",
+            "assembly": "Walnut_2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/juglans_regia/GCA_001411555.2/51240_GCA_001411555.2_current_ids.vcf.gz"
+        }
+    ],
+    "triticum_dicoccoides_gca002162155v1_WEWSeq_v.1.0": [
+        {
+            "genome_uuid": "e4c2c370-612e-4bc7-9ed4-570eb9f8c972",
+            "species": "triticum_dicoccoides_gca002162155v1",
+            "assembly": "WEWSeq_v.1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/triticum_dicoccoides/GCA_002162155.1/85692_GCA_002162155.1_current_ids.vcf.gz"
+        }
+    ],
+    "nasonia_vitripennis_Nvit_psr_1.1": [
+        {
+            "genome_uuid": "e4ed3725-dfd5-45ee-b5b7-c103e8e43737",
+            "species": "nasonia_vitripennis",
+            "assembly": "Nvit_psr_1.1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/nasonia_vitripennis/GCA_009193385.2/7425_GCA_009193385.2_current_ids.vcf.gz"
+        }
+    ],
+    "malus_domestica_gca002114115v1cm_ASM211411v1": [
+        {
+            "genome_uuid": "bb476d8e-1b9e-4bfc-8188-6bc1a4cf492d",
+            "species": "malus_domestica_gca002114115v1cm",
+            "assembly": "ASM211411v1",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/malus_domestica/GCA_002114115.1/3750_GCA_002114115.1_current_ids.vcf.gz"
+        }
+    ],
+    "taeniopygia_guttata_gca003957565v2_bTaeGut1_v1.p": [
+        {
+            "genome_uuid": "528caae3-f5c4-412f-b452-a1d0e3b77508",
+            "species": "taeniopygia_guttata_gca003957565v2",
+            "assembly": "bTaeGut1_v1.p",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/taeniopygia_guttata/GCA_003957565.2/59729_GCA_003957565.2_current_ids.vcf.gz"
+        }
+    ],
+    "gallus_gallus_bGalGal1.mat.broiler.GRCg7b": [
+        {
+            "genome_uuid": "2b8df0a0-7000-495c-a9db-a093740f0264",
+            "species": "gallus_gallus",
+            "assembly": "bGalGal1.mat.broiler.GRCg7b",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/gallus_gallus/GCA_016699485.1/9031_GCA_016699485.1_current_ids.vcf.gz"
+        }
+    ],
+    "schizosaccharomyces_pombe_ASM294v2": [
+        {
+            "genome_uuid": "e5a7a144-340f-4455-91ba-5f31e9b47067",
+            "species": "schizosaccharomyces_pombe",
+            "assembly": "ASM294v2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/schizosaccharomyces_pombe/GCA_000002945.2/4896_GCA_000002945.2_current_ids.vcf.gz"
+        }
+    ],
+    "anopheles_funestus_gca003951495v1vb_AfunF3": [
+        {
+            "genome_uuid": "c42bc660-2df6-4f1b-9b55-14490bf553c9",
+            "species": "anopheles_funestus_gca003951495v1vb",
+            "assembly": "AfunF3",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anopheles_funestus/GCA_003951495.1/62324_GCA_003951495.1_current_ids.vcf.gz"
+        }
+    ],
+    "caenorhabditis_elegans_WBcel235": [
+        {
+            "genome_uuid": "a733550b-93e7-11ec-a39d-005056b38ce3",
+            "species": "caenorhabditis_elegans",
+            "assembly": "WBcel235",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/caenorhabditis_elegans/GCA_000002985.3/6239_GCA_000002985.3_current_ids.vcf.gz"
+        }
+    ],
+    "sorghum_bicolor_Sorghum_bicolor_NCBIv3": [
+        {
+            "genome_uuid": "48dd6ebd-04f4-433b-b79f-7afb752b8904",
+            "species": "sorghum_bicolor",
+            "assembly": "Sorghum_bicolor_NCBIv3",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/sorghum_bicolor/GCA_000003195.3/4558_GCA_000003195.3_current_ids.vcf.gz"
+        }
+    ],
+    "glossina_fuscipes_Yale_Gfus_2": [
+        {
+            "genome_uuid": "9d2b3e83-e50b-4a6d-89c5-e08c109ab6a7",
+            "species": "glossina_fuscipes",
+            "assembly": "Yale_Gfus_2",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/glossina_fuscipes_fuscipes/GCA_014805625.1/201502_GCA_014805625.1_current_ids.vcf.gz"
+        }
+    ],
+    "anas_platyrhynchos_gca002743455v1_CAU_duck1.0": [
+        {
+            "genome_uuid": "7d2d6481-fe06-4af0-a3de-a5d66f54d881",
+            "species": "anas_platyrhynchos_gca002743455v1",
+            "assembly": "CAU_duck1.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/anas_platyrhynchos/GCA_002743455.1/8839_GCA_002743455.1_current_ids.vcf.gz"
+        }
+    ],
+    "oryctolagus_cuniculus_OryCun2.0": [
+        {
+            "genome_uuid": "52a74477-ca84-4d83-95ec-22a7418ec6a3",
+            "species": "oryctolagus_cuniculus",
+            "assembly": "OryCun2.0",
+            "source_name": "EVA",
+            "file_type": "remote",
+            "file_location": "https://ftp.ebi.ac.uk/pub/databases/eva/rs_releases/release_9/by_species/oryctolagus_cuniculus/GCA_000003625.1/9986_GCA_000003625.1_current_ids.vcf.gz"
+        }
+    ]
+}

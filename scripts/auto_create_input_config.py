@@ -143,9 +143,10 @@ def get_ensembl_species(server: dict, meta_db: str) -> dict:
                	g.genome_uuid,
                	g.production_name,
                	a.accession,
-               	a.assembly_default
-               	FROM genome AS g, assembly AS a, genome_release AS gr
-                WHERE g.assembly_id = a.assembly_id AND g.genome_id = gr.genome_id AND gr.is_current = 1
+               	a.assembly_default,
+                o.scientific_name
+               	FROM genome AS g, assembly AS a, genome_release AS gr, organism AS o
+                WHERE g.assembly_id = a.assembly_id AND g.genome_id = gr.genome_id AND gr.is_current = 1 AND g.organism_id = o.organism_id
             """
 
     process = subprocess.run(
@@ -175,11 +176,12 @@ def get_ensembl_species(server: dict, meta_db: str) -> dict:
 
     ensembl_species = {}
     for species_meta in process.stdout.decode().strip().split("\n"):
-        (genome_uuid, species, assembly, assembly_default) = species_meta.split()
+        (genome_uuid, species, assembly, assembly_default, scientific_name) = species_meta.split("\t", 4)
         ensembl_species[genome_uuid] = {
             "species": species,
             "assembly_id": assembly,
             "assembly_name": assembly_default,
+            "scientific_name": scientific_name,
         }
 
     return ensembl_species
@@ -430,7 +432,6 @@ def get_eva_species(release_version: int) -> dict:
         exit(1)
 
     content = response.json()
-
     for species in content:
         if species["currentRs"] < 5000:
             continue
@@ -444,8 +445,7 @@ def get_eva_species(release_version: int) -> dict:
                 "variant_count": species["currentRs"],
             }
 
-            eva_species[accession] = new_assembly
-
+            eva_species[accession] = eva_species.get(accession, []) + [new_assembly]
     return eva_species
 
 
@@ -745,9 +745,25 @@ def main(args=None):
             print(
                 f"[INFO] Processing... Assembly ID: {asm}. Species: {sp}. Genome: {uuid}."
             )
+            scientific_name = meta["scientific_name"]
 
             # Grab EVA metadata for assembly
-            eva_meta = eva_species[asm]
+            variant_count = -1
+            eva_meta = None
+            for asm_meta in eva_species[asm]:
+                genus = asm_meta["species"].split(" ")[0].lower()
+                genus_ensembl = scientific_name.split(" ")[0].lower()
+                if genus_ensembl != genus:
+                    continue
+
+                if asm_meta["variant_count"] > variant_count:
+                    variant_count = asm_meta["variant_count"]
+                    eva_meta = asm_meta
+            if not eva_meta:
+                print(
+                    f"[INFO] No EVA metadata found for assembly {asm} with genus {genus_ensembl} matching Ensembl; skipping..."
+                )
+                continue
 
             # Skip human
             if sp.startswith("homo"):
