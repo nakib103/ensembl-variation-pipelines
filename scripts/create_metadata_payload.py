@@ -369,6 +369,17 @@ def main(args=None):
             dataset_source["type"] = "vcf"
             payload["dataset_source"] = dataset_source
 
+            source_index = {}
+            if os.path.isfile(f"{api_vcf}.tbi"):
+                source_index["name"] = f"{api_vcf}.tbi"
+            elif os.path.isfile(f"{api_vcf}.csi"):
+                source_index["name"] = f"{api_vcf}.csi"
+            else:
+                print(f"[ERROR] index file not found - {api_vcf}.tbi or {api_vcf}.csi")
+                exit(1)
+            source_index["type"] = "tabix"
+            payload["source_index"] = source_index
+
             payload["genome_uuid"] = genome_uuid
 
             dataset_attribute = []
